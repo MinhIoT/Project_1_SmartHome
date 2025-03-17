@@ -16,8 +16,8 @@
 #define SCREEN_ADDRESS 0x3C
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // Khai báo tên WIFI
-const char* ssid = "SHOP KIM";
-const char* password = "kimgiang38";
+const char* ssid = "your ssid";
+const char* password = "your password";
 const char* ssidAP = "ESP32";
 const char* passAP = "123456789";
 // Tạo cổng kết nối server
